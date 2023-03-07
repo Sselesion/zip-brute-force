@@ -30,7 +30,7 @@ fn main() {
     if args.len() < 3 {
         println!(
             "{}",
-            "Usage: veldora <filename> <password_list>".bright_green()
+            "Usage: cargo run <filename> <password_list>".bright_green()
         );
         return;
     }
